@@ -1,3 +1,12 @@
+# git & go
+
+- [git & go](#git--go)
+  - [把本地项目推到自己的github](#把本地项目推到自己的github)
+  - [创建一个新的仓库并关联](#创建一个新的仓库并关联)
+  - [关于go的模块化](#关于go的模块化)
+    - [清理包的缓存](#清理包的缓存)
+  - [参考链接](#参考链接)
+
 ## 把本地项目推到自己的github
 git remote add origin git@github.com:yao-yue/go_temp.git<br/> 
 git branch -M main <br/> 
@@ -41,3 +50,4 @@ go clean -modcache
 
 ## 参考链接
 [git文档](https://git-scm.com/docs/git-push) 
+[go module化 参考文档](https://golang.org/doc/code)

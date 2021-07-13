@@ -23,5 +23,20 @@ git remote add origin git@github.com:yao-yue/go_temp.git  <br/>
 git push -u origin main  <br/> 
 
 
+## 关于go的模块化
+其实可以把他们和node的模块化结合起来学习
+简单总结：  
+1. 引入本地的包  
+	"example.com/user/hello/morestrings"
+2. 引入外部库的包
+    "github.com/google/go-cmp/cmp"
+    使用go mod tidy 进行拉取依赖
+    ![](http://ww1.sinaimg.cn/large/006x4mSygy1gsf36ygagvj313c0wyaee.jpg)
+
+### 清理包的缓存
+you can pass the -modcache flag to go clean:
+go clean -modcache
+
+
 ## 参考链接
 [git文档](https://git-scm.com/docs/git-push) 

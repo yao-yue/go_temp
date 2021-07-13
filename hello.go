@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 
-	"example.com/user/hello/morestrings"
-
-	"github.com/google/go-cmp/cmp"
+	"github.com/yao-yue/go_temp/morestrings"
+	// "github.com/google/go-cmp/cmp"
 )
 
 //在cmp这个文件里面  compare.go 里面的这个文件
@@ -18,5 +17,5 @@ import (
 func main() {
 	fmt.Println("!oG ,olleH")
 	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
-	fmt.Println(cmp.Diff("Hello World", "Hello Go"))
+	// fmt.Println(cmp.Diff("Hello World", "Hello Go"))
 }

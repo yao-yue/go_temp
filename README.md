@@ -32,6 +32,7 @@ git push -u origin main  <br/>
     "github.com/google/go-cmp/cmp"
     使用go mod tidy 进行拉取依赖
     ![](http://ww1.sinaimg.cn/large/006x4mSygy1gsf36ygagvj313c0wyaee.jpg)
+3. 可以把自己写的库上传到github,然后本地可以用名字引入，然后再go mod tidy
 
 ### 清理包的缓存
 you can pass the -modcache flag to go clean:
